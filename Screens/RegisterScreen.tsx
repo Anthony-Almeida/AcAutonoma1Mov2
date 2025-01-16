@@ -13,7 +13,7 @@ export default function RegisterScreen() {
 
   const [image, setImage] = useState<string | null>(null);
 
-  const defaultImage = 'https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/default-profile-picture-male-icon.png'
+  const defaultImage = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gUu-g89_eju6qtZSvsM5mssZbFfcEKyJSQ&s'
 
   function registro() {
     createUserWithEmailAndPassword(auth, correo, contrasenia)
